@@ -149,3 +149,21 @@ data:
                     - cartoons
                     - toys
                 - name: Lina
+
+
+# Reusable Anchors & Aliases
+default_user: &default_user
+  role: User
+  active: true
+  permissions:
+    - read
+    - write
+    - execute
+
+admin_user: &admin_user
+  name: Admin
+
+
+users: 
+  <<: *default_user
+
