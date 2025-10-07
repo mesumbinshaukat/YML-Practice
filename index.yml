@@ -1,0 +1,76 @@
+# Just practicing YML. This is just a demo index.yml file. 😁
+bio: # No space needed before this parent key
+  name: Mesum # Only 2 spaces before this child key
+  role: Software Engineer
+  links:
+    - url: https://github.com/mesumbinshaukat # This is a list of links
+      icon: github
+      label: GitHub
+    - url: https://www.linkedin.com/in/mesum-bin-shaukat
+      icon: linkedin
+      label: LinkedIn
+
+# Multi-Line Text
+demo_paragraph_one: |
+  This is a paragraph
+  that spans multiple lines
+  without any issues. And
+  you don't need any quotes
+  around it.
+
+demo_paragraph_two: >
+  This is another paragraph
+  that spans multiple lines
+  without any issues. And
+  you don't need any quotes
+  around it.
+
+# How to declare strings
+3_ways_specify_string:
+  one: This is a string
+  two: "This is a string"
+  three: 'This is a string'
+  special_note: |
+    if you want to use any special
+    character in a string, then it's best
+    to use quotes around it, to avoid any errors
+    in the runtime.
+
+
+# Numbers/Integers
+integers: 1234567890
+
+# Floats
+floats: 3.14159
+
+# Octals
+octals: 0o1234567
+
+# Hexadecimals
+hexadecimals: 0x1234567
+
+# Booleans
+want_tea: true
+want_coffee: false
+ate_burger: on
+ate_sandwich: off
+drank_water: yes
+drank_juice: no
+
+# Null
+null_value: null
+null_value_2: ~
+
+# Date & Time
+date: 2025-19-07 # YYYY-MM-DD
+time: 7:23:00 # HH:MM:SS
+datetime: 2020-01-01 12:00:00
+
+# Lists/Arrays
+fruits:
+  - apple
+  - banana
+  - cherry
+  - date
+
+old_list_practice: [apple, banana, cherry, date]
