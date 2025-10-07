@@ -74,3 +74,78 @@ fruits:
   - date
 
 old_list_practice: [apple, banana, cherry, date]
+
+# Nested YML Configuration
+data: 
+  users:
+    - name: Mohammad
+      age: 30
+      email: 5tM9j@example.com
+      siblings:
+        count: 3
+        details:
+          - name: Sara
+            gender: Female
+            age: 15
+            diploma: false
+            favirote_fruits:
+              - mango
+              - banana
+              - apple
+          - name: Ali
+            gender: Male
+            age: 20
+            marital_status: single
+          - name: Aisha
+            gender: Female
+            age: 18
+            marital_status: divorcee
+            children:
+              count: 1
+              details:
+                - name: Zain
+                  age: 2
+                  gender: Male
+                  likes:
+                    - toys
+                    - cartoons
+                    - chocolates
+                - name: Zara
+                  age: 5
+                  gender: Female
+                  likes:
+                    - toys
+                    - cartoons
+                  hobby:
+                    - drawing
+                    - painting
+    - name: Ayesha
+      age: 28
+      email: 2yv0s@example.com
+      country: "Saudia Arabia" 
+      siblings:
+        count: 2
+        details:
+          - name: Omar
+            gender: Male
+            age: 25
+            marital_status: married
+            children:
+              count: 2
+              details:
+                - name: Adam
+                  age: 3
+                  gender: Male
+                  likes:
+                    - cartoons
+                    - toys
+                  hobby:
+                    - playing
+                    - drawing
+                - name: Eva
+                  age: 1
+                  gender: Female
+                  likes:
+                    - cartoons
+                    - toys
+                - name: Lina
